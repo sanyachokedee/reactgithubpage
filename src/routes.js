@@ -9,7 +9,7 @@ import Register from './pages/register/Register'
 const Routes = () => {
 
     return (
-        <BrowserRouter basename={'/react-web-kit'}>
+        <BrowserRouter basename={'/reactgithubpage'}>
 
         
 
