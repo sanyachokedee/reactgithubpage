@@ -35,7 +35,7 @@ const Login = () => {
       Swal.fire({
         title: "Auto close alert!",
         html: "I will close in <b></b> milliseconds.",
-        timer: 2000,
+        timer: 0,
         timerProgressBar: true,
         didOpen: () => {
           Swal.showLoading();

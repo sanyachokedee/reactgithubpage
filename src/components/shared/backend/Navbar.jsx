@@ -237,7 +237,7 @@ const Navbar = () => {
               data-toggle="dropdown"
             >
               <img
-                src="../assets/img/avatars/avatar.jpg"
+                src="https://sanyachokedee.github.io/reactgithubpage/assets/img/avatars/avatar-2.jpg"
                 className="avatar img-fluid rounded mr-1"
                 alt={fullname}
               />{" "}
