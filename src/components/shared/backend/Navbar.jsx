@@ -158,8 +158,13 @@ const Navbar = () => {
                 <a href="#" className="list-group-item">
                   <div className="row g-0 align-items-center">
                     <div className="col-2">
-                      <img
+                      {/* <img
                         src="../assets/img/avatars/avatar-2.jpg"
+                        className="avatar img-fluid rounded-circle"
+                        alt="William Harris"
+                      /> */}
+                      <img
+                        src="https://sanyachokedee.github.io/reactgithubpage/assets/img/avatars/avatar-2.jpg"
                         className="avatar img-fluid rounded-circle"
                         alt="William Harris"
                       />
