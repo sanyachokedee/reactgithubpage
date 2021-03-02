@@ -18,7 +18,8 @@ const Login = () => {
   if(localStorage.getItem('fullname') != null) {
     //ส่งไปหน้า Backend / Dashboard
     console.log(localStorage.getItem('fullname'));
-    history.push('/backend/dashboard')
+    // history.push('/backend/dashboard')
+    window.location = "https://sanyachokedee.github.io/reactgithubpage/#/backend/dashboard"
   }
 
   // ฟังก์ชั่นการ Submit form
@@ -61,7 +62,9 @@ const Login = () => {
           console.log("I was closed by the timer");
 
           // ส่งไปหน้า Backend/ Dashboard
-          window.location ='/backend/dashboard'
+          // window.location ='/backend/dashboard'
+          window.location = "https://sanyachokedee.github.io/reactgithubpage/#/backend/dashboard" //เมื่อใช้ github
+
         }
       });
     } else {

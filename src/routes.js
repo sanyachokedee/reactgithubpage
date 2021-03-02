@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { HashRouter, Route, Switch } from 'react-router-dom'
 import Dashboard from './pages/backend/dashboard/Dashboard'
 import Product from './pages/backend/product/Product'
 import Forgotpassword from './pages/forgotpassword/Forgotpassword'
@@ -9,7 +9,7 @@ import Register from './pages/register/Register'
 const Routes = () => {
 
     return (
-        <BrowserRouter basename={'/reactgithubpage'}>
+        <HashRouter basename={'/reactgithubpage'}>
 
         
 
@@ -28,7 +28,7 @@ const Routes = () => {
             <Route component={PageNotFound} />
 
         </Switch>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
