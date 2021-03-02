@@ -33,9 +33,8 @@ const Login = () => {
       // alert("Login success")
       let timerInterval;
       Swal.fire({
-        title: "Auto close alert!",
-        html: "I will close in <b></b> milliseconds.",
-        timer: 0,
+        html: "ท่านกำลังเข้าสู่ระบบ",
+        timer: 2000,
         timerProgressBar: true,
         didOpen: () => {
           Swal.showLoading();
